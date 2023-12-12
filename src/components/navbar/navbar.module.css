@@ -1,0 +1,22 @@
+.headerWrapper {
+    box-shadow: 0px 3px 5px #eee;
+}
+.header {
+    text-align: center;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.header ul {
+    display: flex;
+    justify-content: end;
+    flex-direction: row-reverse;
+    padding-right: 40px;
+}
+
+.header ul li {
+    margin-left: 20px;
+}
